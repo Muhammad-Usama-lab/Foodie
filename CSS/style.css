@@ -1,0 +1,629 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+@font-face{
+    src: url('../fonts/Biryani/Biryani-Light.ttf');
+    font-family: 'Biryani-Light';
+}
+.font-Bir{
+    font-family: 'Biryani-Light';
+}
+
+
+.socialIconsLi i{
+    margin: 0px 2px;
+    color: #d3d1d1;
+
+}
+.socialIconsLi:hover i{
+
+    transition: 0.5s ease;
+    color: rgb(209, 209, 209)!important;
+}
+.navbar{
+    float: left;
+    padding-right:150px!important;
+    padding-left:150px!important;
+    width: 100%;
+    padding-top: 40px!important;
+}
+/* .navbar ul{
+float: right;
+} */
+
+
+.nav-item a{
+    color: rgb(224, 222, 222)!important;
+    padding-right:20px !important;
+
+}
+.nav-item a:hover{
+    transition: 0.5s ease;
+    color: rgb(209, 209, 209)!important;
+
+}
+
+.navbar-brand{
+    color: rgb(224, 222, 222)!important; 
+}
+.frontTop{
+    
+    background-image: linear-gradient(to right ,rgba(120, 131, 138, 0.6),rgb(6, 40, 63, 0.6)),url('../Images/Food/front-top.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 60px;
+    
+
+}
+/* .frontTop:before{
+    content: "";
+    
+
+} */
+.frontHeadingSmall{
+    color: rgb(201, 200, 200);
+    text-align: left;
+    padding: 10px;
+    
+}
+.frontHeadingLarge{
+    color: rgb(243, 243, 243);
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.frontDiv{
+    width: 50%;
+    /* border: 1px solid #ffff; */
+
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+
+}
+
+@media(max-width:917px){
+    .frontHeadingSmall{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .frontHeadingLarge{
+        font-size: 80px;
+    }
+    .navbar{
+        padding-right:120px!important;
+    padding-left:120px!important;
+    }
+    .frontTop{
+        padding: 150px 50px;
+
+    }
+
+}
+@media(max-width:757px){
+    .frontHeadingSmall{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-top: 30px;
+
+    }
+    .frontHeadingLarge{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .navbar{
+        padding-right:70px!important;
+    padding-left:70px!important;
+    }
+    .frontTop{
+        padding: 150px 40px;
+
+    }
+}
+
+
+@media(max-width:563px){
+    .frontHeadingSmall{
+        font-size: 16px;
+        padding-left: 40px;
+
+    }
+    .frontHeadingLarge{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .navbar{
+        padding-right:40px!important;
+    padding-left:40px!important;
+    }
+    /* .frontTop{
+        padding: 150px 40px;
+
+    } */
+    .frontDiv{
+        width: 70%;
+    }
+}
+
+@media(max-width:320px){
+    .frontHeadingSmall{
+        font-size: 12px;
+        padding-left: 10px;
+
+    }
+    .navbar{
+        padding-right:10px!important;
+    padding-left:10px!important;
+    }
+    .navbar-brand{
+        font-size: 17px!important;
+    }
+
+}
+
+.navbar.cusMenu{
+    position: sticky;
+    top:0;
+    transition:all 0.7s ease;
+    background-color: whitesmoke!important;
+    padding-top: 10px!important;
+}
+.cusMenu .navbar-brand{
+    color: #000!important;
+
+}
+.cusMenu li a{
+    color: #000!important;
+}
+.cusMenu .navbar-toggler span{
+    color: gray!important;
+
+}
+
+
+
+/* ----------------------------------FRONT TOP SECTION END------------------------- */
+
+
+.whatWeOffer hr,.ourTeam hr{
+    width: 5%;
+    height: 2px;
+    border: none;
+    background-color: #EAB543;
+}
+
+
+.whatWeOffer{
+    padding:100px 0px;
+    background-image: url('../Images/Food/wood-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offerHeading{
+    font-family: 'Redressed', cursive;
+    
+   
+}
+.offersInnerColDiv{
+    text-align: center;
+}
+
+.offersInnerColDiv img{
+
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+
+}
+
+.offersInnerColDiv h3{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    padding:30px 0px;
+    
+
+}
+
+.offersInnerColDiv p{
+    color: rgb(143, 143, 143);
+
+}
+
+
+/* ----------------------------------WHAT WE OFFER SECTION END------------------------- */ 
+
+.aboutUs{
+    padding:100px 0px;
+    background-image: url('../Images/Food/aboutUsBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aboutHeading{
+    font-family: 'Redressed', cursive;
+    color: #dab870;
+    /* padding: 20px 0px 10px 100px; */
+}
+.aboutHeading span{
+    color: #D32F2F;
+
+}
+.aboutUs hr{
+    width: 40%;
+    background-color: wheat;
+    /* margin-left: 100px; */
+}
+.aboutUs p{
+
+    width: 40%;
+    /* padding-left: 100px; */
+    line-height: 1.5em;
+    color: #BDBDBD;
+
+}
+.aboutUs p ~ a,.chef a{
+
+  color: #D32F2F;
+  
+}
+.aboutUs p ~ a:hover,.chef a:hover{
+    text-decoration: none;
+    color: #D32F2F;
+
+}
+@media(max-width:757px){
+    .aboutUs p{
+        width: 60%;
+    }
+    
+}
+
+
+
+/* ----------------------------------ABOUT US SECTION END------------------------- */ 
+
+
+.chef{
+    padding: 100px 0px;
+    
+}
+.chef h1{
+    margin-top: 50px;
+    color: #dab870;
+    font-family: 'Great Vibes',cursive;
+    font-size: 70px;
+    
+}
+.chef .message{
+    margin-top: 10px;
+    color: #BDBDBD;
+    font-family: 'Biryani-Light';
+}
+.chef .description{
+    /* font-size: 20px; */
+    margin-top:90px ;
+    color: #BDBDBD;
+    font-family: 'Biryani-Light';
+    clear: both;
+}
+
+.socialLink i{
+    width: 22px;
+    height: 20px;
+    line-height: 15px;
+    
+
+}
+.socialLink{
+    text-align: center;
+    padding: 5px;
+      
+    
+    margin: 5px;
+    float: right;
+    border-radius: 50%;
+    
+}
+.socialLink:hover i{
+    transition: 0.5s ease;
+    transform: translateY(-2px);
+    transform: scale(1.2);
+}
+.socialLink:hover{
+    box-shadow: 2px 5px 5px #D32F2F;
+    
+    transition: 0.5s ease;
+    
+    transform: translateY(-10px);
+
+}
+
+
+@media(max-width:991px){
+
+    .chef .col-lg-6{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:320px){
+
+    .chef h1{
+        font-size: 50px;
+    }
+    
+
+}
+
+
+/* ----------------------------------CHEF SECTION END------------------------- */ 
+
+
+
+
+
+.ourTeam{
+    padding: 100px 0px;   
+}
+
+
+.ourTeamHeading{
+    font-family: 'Redressed',cursive;
+    /* color: #D32F2F; */
+
+
+
+}
+.ourTeaminnerColDiv{
+    text-align: center;
+    
+}
+
+
+
+.ourTeaminnerColDiv h6{
+    font-family: 'Biryani-Light',recursive;
+    margin: 5px auto;
+
+}
+.ourTeaminnerColDiv h5{
+
+    color: #BDBDBD;
+}
+.ourTeaminnerColDiv img{
+    position: relative;
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 0px 3px 2px #dab870;
+
+
+}
+.before{
+text-align: center;
+
+    position: absolute;
+    bottom: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #D32F2F;
+    transition: 0.4s ease;
+}
+.before i{
+    color: #dab870;
+
+}
+.before:hover{
+    background-color: #EAB543;
+}
+.before:hover i{
+    transition: 0.4s ease;
+    color: #D32F2F;
+
+}
+.ourTeaminnerColDiv p{
+    padding: 2px;
+    color: #a1a1a1;
+
+}
+
+
+
+@media(max-width:px){
+
+}
+
+/* ----------------------------------OUR TEAM SECTION END------------------------- */ 
+
+.menuUpper{
+    
+    padding: 300px 0px;
+background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.8)),url('../Images/Food/menuBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.menuLower{
+    padding: 200px 0px;
+    height: 60vh;
+background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.4)),url('../Images/Food/menuLowerBack.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuItemsDiv{
+    
+    
+    
+    
+    transform: translateY(-100%);
+    padding: 40px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.menuItemsDiv  a{
+    text-transform: none;
+text-align: center;
+    color: #D32F2F;
+    border: 1px solid #D32F2F;
+    padding: 7px 14px;
+    border-radius: 20px;
+    margin: 20px;
+transition: 0.5s ease;
+
+box-sizing: border-box;
+}
+.menuItemsDiv  a:hover{
+    color:white;
+    
+    text-decoration: none;
+    background-color: #D32F2F;
+
+
+}
+.menuHeading{
+    color: #dab870;
+    font-family: 'Redressed',recursive;
+    text-align: center;
+}
+
+#menuIcon ~ hr{
+    width: 5%;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+.menuInnerColDiv{
+    padding: 0px 10px;
+}
+.menuInnerColDiv > h5{
+    color:#D32F2F;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    /* margin-bottom: 10px; */
+
+}
+.menupartDiv {
+/* border: 1px solid #000; */
+margin: 1px auto;
+
+}
+.menupartDiv .col-md-9 i{
+    color: #D32F2F;
+}
+.menupartDiv .col-md-9 img,.menupartDiv .col-md-9 i{
+    margin-right: 2px;
+    margin-bottom: 1px;
+
+}
+
+
+
+
+.menupartDiv h6{
+    text-transform:uppercase;
+    font-weight: bolder;
+    font-family: 'Biryani-Light';
+}
+.menupartDiv h6 span{
+    font-family: sans-serif;
+    color: #BDBDBD;
+    text-transform: capitalize;
+    font-weight: normal;
+    padding: 5px;
+
+}
+.menupartDiv .priceDiv h5{
+    font-size: 110%;
+    box-sizing: border-box;
+    padding: 5px;
+    line-height: 60px;
+
+    
+}
+
+@media(max-width:991px){
+    .menuItemsDiv{
+        transform: translateY(-60%);
+    }
+    
+
+    .menuUpper{
+        background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6)),url('../Images/Food/menuBackground.jpg');
+    }
+
+.menuLower{
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.4)),url('../Images/Food/menuLowerBack.jpg');
+    height: 160vh;
+}
+
+}
+@media(max-width:767px){
+    .menuItemsDiv{
+        transform: translateY(-45%);
+    }
+
+    .menuUpper{
+        background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6)),url('../Images/Food/menuBackground.jpg');
+    }
+
+.menuLower{
+    background-position: left;
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.4)),url('../Images/Food/menuLowerBack.jpg');
+    height: 230vh;
+}
+
+}
+
+@media(max-width:600px){
+    .menuItemsDiv{
+        transform: translateY(-45%);
+    }
+
+}
+@media(max-width:458px){
+    .menuItemsDiv{
+        transform: translateY(-40%);
+    }
+    .menuLower{
+        height: 250vh;
+    }
+
+}
+
+/* @media(max-width:320px){
+    .menu{
+        width: 100%;
+
+    }
+
+} */
+
+/* ----------------------------------MENU SECTION END------------------------- */ 
+/* @media(max-width:375px){
+    nav{
+        width: 110%!important;
+    }
+
+} */
